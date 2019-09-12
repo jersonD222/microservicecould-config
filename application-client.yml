@@ -1,0 +1,14 @@
+spring:
+  profiles:
+      active:
+        - dev
+---
+spring:
+  profiles: dev
+      application:
+           name: microservicecould-config-hd-dev
+---
+spring:
+  profiles: test
+      application:
+           name: microservicecould-config-hd-test
